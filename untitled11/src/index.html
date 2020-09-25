@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+</head>
+<body>
+<form>
+    <input type="text" id="numberone">
+    <input type="submit" id="ok">
+
+</form>
+<script>
+ let numberone=document.getElementById(numberone);
+ let ok=document.getElementById(ok);
+ ok.onclick = ev => {
+     ok.preventDefault();
+     console.log(numberone);
+ }
+
+
+</script>
+</body>
+</html>

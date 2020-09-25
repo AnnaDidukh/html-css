@@ -1,0 +1,112 @@
+body{
+    background: url("https://v-kosmose.com/wp-content/uploads/2018/09/The_Milky_Way_2018.jpg");
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom:40% ;
+}
+.box9{
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 50px;
+    height: 25px;
+}
+.box0{
+    position: absolute;
+}
+.box{
+    display: block;
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    background: lightslategray;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    margin: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 300px;
+    padding: 0;
+}
+li{
+    width: 33%;
+    height: 100px;
+    background-clip: content-box;
+    padding: 10px;
+    list-style: none;
+}
+.container {
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.box4{
+    background: royalblue;
+    margin: 0 15% 0 15%;
+}
+.box5{
+    background: royalblue;
+    margin: 0 15% 0 15%;
+}
+.box6{
+     background: royalblue;
+     margin: 0 15% 0 15%;
+ }
+/*img{*/
+/*    float:right;*/
+/*    clear: both;*/
+/*    width: 300px;*/
+/*    height: 200px;*/
+
+/*}*/
+.box7{
+
+    margin: 10rem;
+    clear: both;
+}
+.box8{
+    display: flex;
+    justify-content: center;
+    margin-bottom:2rem;
+}
+input{
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 1rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background: skyblue;
+    animation: myanimation 7s infinite;
+    margin: 20px;
+    height: 3rem;
+}
+@keyframes myanimation {
+    0%{background: royalblue}
+    10%{background: hotpink}
+    20%{background: honeydew}
+    30%{background: darkgoldenrod}
+    40%{background: yellow}
+    50%{background: hotpink}
+    60%{background: khaki}
+    70%{background: firebrick}
+    80%{background: hotpink}
+    90%{background: green}
+    100%{background: pink}
+}

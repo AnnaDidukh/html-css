@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js</title>
+    <style>
+        #put{
+            background: lightyellow;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+<button id="but">натисни</button>
+<br>
+<input id="txt" type="text">
+<div id="put">Teкст </div>
+<textarea id="put2">Teкст</textarea>
+<script>
+    let but= document.getElementById('but');
+    let txt = document.getElementById('txt');
+    let put = document.getElementById('put');
+    // let put2= document.getElementById('put');
+
+but.onclick = () => {
+    alert('Hello world');
+    but.innerText='Hello World';
+}
+txt.oninput = () => {
+    console.log(txt.value);
+    put.innerText=txt.value;
+}
+txt.oninput = () => {
+     console.log(txt.value);
+     put2.innerText=txt.value;
+}
+put.oncopy=function () {
+    console.log(txt.value);
+}
+let arr=[1,12,3];
+for(let i=;i<arr.length;i--){
+    console.log(arr[i]);
+}
+</script>
+</body>
+</html>
